@@ -15,7 +15,7 @@ read reponse
 if [ "$reponse" == "1" ]
 then
     dnf update -y
-    echo "Voulez-vous redemarer ?"
+    echo "Voulez-vous redemarer ?"      fgtyhi-gyt-
     echo "[O,N]"
     read reponse2
     if ["$reponse2" == "o" ,"$reponse2" == "O" ]
